@@ -3,6 +3,10 @@ Dynamic Menu Window for Unity
 Opens also a Scene and ReadSceneNames Example
 
 ```
+using UnityEditor;
+using System.Collections.Generic;
+using UnityEditor.SceneManagement;
+
 public class DynamicMenuWindow : EditorWindow
 {
     public static string[] scenes;
